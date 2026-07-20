@@ -1,0 +1,87 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Estilos Menú Principal */
+.menu-container {
+    display: flex;
+    gap: 20px;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 200px;
+    color: white;
+    text-decoration: none;
+    font-size: 24px;
+    border-radius: 5px;
+}
+
+.btn-purple {
+    background-color: #a700a7;
+}
+
+.btn-green {
+    background-color: #92d050;
+}
+
+/* Estilos Formularios */
+.form-container {
+    background-color: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    width: 400px;
+    text-align: center;
+}
+
+h2 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+}
+
+input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.btn-submit {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    width: 150px;
+    margin: 10px auto 0 auto;
+}
+
+.btn-submit:hover {
+    background-color: #0056b3;
+}
+
+.results {
+    margin-top: 20px;
+    text-align: left;
+    font-size: 16px;
+}
